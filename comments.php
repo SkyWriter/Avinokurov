@@ -14,20 +14,19 @@
 
 <?php if ( have_comments() ) : ?>
 <?php 
-	if (in_category('blog')) {
-		echo '<h2>Комментарии</h2>';
-	}
+	echo '<h2>Комментарии</h2>';
 ?>
 	<ol class="commentlist">
-	<?php wp_list_comments("callback=av_comment_callback"); ?>
+	<?php wp_list_comments(""); ?>
 	</ol>
+	<br /><br />
 <?php endif; ?>
  
 <?php if ( comments_open() ) : ?>
 
 <div id="respond">
 
-<h3><?php comment_form_title( 'Оставить отзыв', 'Оставить отзыв на %s' ); ?></h3>
+<h2><?php comment_form_title( 'Оставить отзыв', 'Оставить отзыв на %s' ); ?></h2>
 
 <div class="cancel-comment-reply">
 	<small><?php cancel_comment_reply_link(); ?></small>
@@ -66,6 +65,7 @@
 <?php do_action('comment_form', $post->ID); ?>
 
 </form>
+<br /><br />
 
 <?php endif; // If registration required and not logged in ?>
 </div>

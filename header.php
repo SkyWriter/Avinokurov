@@ -25,11 +25,11 @@
 				<div class="right">
 					<ul class="menu">
 						<li><a href="http://avinokurov.ru/">Главная</a></li>
-						<li><a href="http://avinokurov.ru/services/">Услуги</a></li>
-						<li><a href="http://avinokurov.ru/portfolio/">Портфолио</a></li>
-						<li><a href="http://avinokurov.ru/articles/">Статьи</a></li>
-						<li><a href="http://awedding.ru/blog/">Блог</a></li>
-						<li><a href="http://avinokurov.ru/contact/">Контакты</a></li>
+						<li><a href="http://avinokurov.ru/service.php">Услуги</a></li>
+						<li><a href="http://avinokurov.ru/portfolio/wedding/">Портфолио</a></li>
+						<li><a href="http://avinokurov.ru/art_bestday.php">Статьи</a></li>
+						<li class="active"><a href="http://awedding.ru/blog/">Блог</a></li>
+						<li><a href="http://avinokurov.ru/contact.php">Контакты</a></li>
 					</ul>
 				</div>
 			</div>

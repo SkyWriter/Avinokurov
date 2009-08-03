@@ -33,9 +33,13 @@ ul { list-style:none;}
 html, input, textarea
 	{
 		font-family:Tahoma, Geneva, sans-serif;
-		font-size:0.788em;
 		line-height:1.255em;
 		color:#767676;
+	}
+	
+html 
+	{
+		font-size:0.788em;
 	}
 
 input, select { vertical-align:middle; font-weight:normal;}
@@ -142,3 +146,9 @@ textarea {width:202px; height:88px; border:1px solid #a4a4a4; background:none; p
 .line h4 a {text-decoration: none;}
 
 .linklove a, .linklove a:visited { display: none; }
+
+.avatar { float: left; padding-right: 10px; }
+
+.commentlist li { padding-bottom: 10px; padding-top: 10px; }
+
+h3 a { color: black; text-decoration: none; }
