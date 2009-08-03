@@ -1,0 +1,144 @@
+/*
+Theme Name: AV
+Theme URI: http://avinokurov.ru/
+Description: Тема сайта свадебного фотографа Алексея Винокурова
+Version: 1.0
+Author: Иван Касатенко
+Author URI: http://ivan4ik.ru/
+*/
+
+
+/* CSS Document */
+
+* {
+	margin:0; padding:0;
+	font-size:100%;
+}
+
+body{
+	background:#FFFFFF;
+	text-align:center;
+}
+
+img {vertical-align:top;}
+a img { border:0;}
+
+ul { list-style:none;}
+
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+
+
+html, input, textarea
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:0.788em;
+		line-height:1.255em;
+		color:#767676;
+	}
+
+input, select { vertical-align:middle; font-weight:normal;}
+
+a {color:#4c9de9;}
+a:hover{text-decoration:none;}
+p {padding-top:15px;}
+
+/* ============================= main layout ====================== */
+#main { width:970px; margin:0 auto; text-align:left;}
+
+li { background:url(images/list-bg.gif) no-repeat 0 10px; padding-left:20px; line-height:1.273em;}
+li a {color:#000;}
+.box li {background:url(images/list-bg2.gif) no-repeat 0 10px;}
+
+.link {background:url(images/link-bg.gif) no-repeat top right; display:inline-block; text-decoration:none; padding-right:17px;}
+.linkback {background:url(images/link-bg_back.gif) no-repeat top left; display:inline-block; text-decoration:none; padding-left:17px; margin-top:20px;}
+.link:hover {text-decoration:underline;}
+.linkback:hover {text-decoration:underline;}
+.box .link {background:url(images/link-bg2.gif) no-repeat top right;}
+
+.imgindent {margin:0 10px 0 0; float:left;}
+.imgindentgal {margin:0 14px 14px 0; float:left;cursor:pointer;}
+.title {margin-bottom:8px;}
+
+h2 {font-size:2.181em; line-height:1em; color:#4c9de9; font-weight:normal; margin-bottom:22px;}
+h3 {font-size:2.181em; line-height:1em; color:#000; font-weight:normal; margin-bottom:22px;}
+h4 {font-size:1.636em; line-height:1.111em; color:#4c9de9; font-weight:normal; margin:10px -20px 5px 0; position:relative;}
+
+.col-1, .col-2, .column1, .column2 {float:left;}
+.container {width:100%; overflow:hidden;}
+.container2 {width:100%;}
+.container_portfolio {width:230;float:left;}
+.portfolio_float {float:right; }
+
+.column1 {width:455px;}
+.column2 {width:435px;}
+
+.col-1 {width:185px;}
+.col-2 {width:230px;}
+.col-3 {float:right;}
+/* ============================= header ====================== */
+#header {height:125px; padding:0 25px 15px 15px;}
+
+.logo {float:left;}
+.menu {float:left; padding-top:45px;}
+.menu li {display:inline; padding:0; width:100px; background:none; font-size:1.182em; text-align:center; line-height:1em;}
+.menu li a {display:inline-block; color:#767676; font-weight:bold; padding:12px 20px 12px 20px;}
+.menu li a:hover {background:#4c9de9; color:#fff;/* font-weight:normal; font-size:1.077em;*/}
+.menu .active a {background:#4c9de9; color:#fff; font-weight:normal; font-size:1.077em; text-decoration:none;}
+
+/* ============================= content ====================== */
+#content {padding:0 10px 10px 10px;}
+
+.small {font-size:0.800em;line-height:1em;
+}
+
+.col-pad {padding-right:28px;}
+.col-pad25 {padding:14px;}
+
+.boxwhite {background:#F4F4F4; margin-top:1px; padding:17px 20px 31px 23px;}
+.box {background:#4c9de9; margin-top:1px; padding:17px 20px 31px 23px; background-image:url(images/weddings_bg.jpg);}
+.box * {color:#fff;}
+
+.line {border-bottom:1px solid #cccccc; padding-bottom:13px; margin-bottom:20px;}
+.line2 {border-bottom:1px solid #cccccc; padding-bottom:23px; margin-bottom:20px;}
+
+.indent {padding:20px 10px 20px 20px;}
+
+.margin0 {margin-top:0;}
+.margin1 {margin-top:5px;}
+.margin2 {margin-top:15px;}
+.padding1 {padding-top:20px;}
+.padding2 {padding-top:27px;}
+.padding3 {padding-top:10px;}
+
+.phone {float:right; margin-right:100px;}
+.text2 {color:#000;}
+
+#page6 .col-1 {width:192px;}
+#page6 .col-2 {width:192px;}
+#page7 #content {padding:0 35px 30px 56px;}
+
+/* ============================= footer ====================== */
+#footer { height:78px; /* padding:0 10px; */}
+
+#footer .block {background:#f4f4f4 url(images/footer-bg.gif) top right no-repeat; padding:22px 0 22px 27px; color:#8a8a8a;}
+#footer a {color:#8a8a8a;}
+
+/* ============================= forms ============================= */
+
+#ContactForm {padding:16px 0 0 0;}
+#ContactForm .col-1 {width:213px !important;}
+#ContactForm .col-2 {width:209px !important;}
+#ContactForm .rowi {height:35px;}
+#ContactForm .input {width:192px; height:18px; border:1px solid #a4a4a4; background:none; padding:0 0 0 5px; font-size:1em; margin:0;}
+#ContactForm .link {float:right; margin-left:20px;}
+
+.button {background:#4c9de9; display:inline-block; padding:4px 17px 3px 15px; color:#fff; text-decoration:none;}
+.button:hover {text-decoration:underline;}
+.input {width:312px; height:21px; border:1px solid #969696; background:none; padding:0 0 0 5px; font-size:1em; margin:5px 0 5px 0;}
+textarea {width:202px; height:88px; border:1px solid #a4a4a4; background:none; padding:0 0 0 5px; overflow:auto; font-size:1em;}
+
+.line h4 a {text-decoration: none;}
+
+.linklove a, .linklove a:visited { display: none; }
